@@ -134,7 +134,7 @@
 
 > Draft for review: the dates and time ranges below are the estimates supplied by the student. The saved screenshots and messages show setup and testing on November 24, 2026; check the dates and times against the actual work and Git history before submitting. Do not backdate entries.
 
-### Entry 1 - November 23, 2026, 3:03–3:35 PM
+### Entry 1 - November 24, 2026, 3:03–3:34 PM
 **What I did**: Set up the project and changed my student ID.
 
 **Details**:
@@ -147,11 +147,11 @@
 
 **Solution**: I set my Git name and university email, then committed and pushed the change again.
 
-**Time spent**: 32 minutes (student estimate).
+**Time spent**: 31 minutes .
 
 ---
 
-### Entry 2 - November 23, 2026, 9:00–9:43 PM
+###  Entry 2 - November 24, 2026, between 3:34 and 3:46 PM
 **What I did**: Ran the starter code and checked the output.
 
 **Details**:
@@ -163,11 +163,11 @@
 
 **Solution**: I identified the problem in `ReadyQueue.poll()` and kept the original output for the technical questions.
 
-**Time spent**: 43 minutes (student estimate).
+**Time spent**: 12 minutes .
 
 ---
 
-### Entry 3 - November 24, 2026, 3:13–3:53 PM
+### Entry 3 - November 24, 2026, completed by 3:46 PM
 **What I did**: Added the ready queue lock (Feature 1).
 
 **Details**:
@@ -180,11 +180,11 @@
 
 **Solution**: I used the same lock for all queue operations and kept `RaceWindow.pause()` in the original code.
 
-**Time spent**: 40 minutes (student estimate).
+**Time spent**: 12 minuets.
 
 ---
 
-### Entry 4 - November 24, 2026, 5:00–5:49 (AM/PM to confirm)
+### Entry 4 -  November 24, 2026, approximately 3:46–3:54 PM
 **What I did**: Protected the shared statistics (Feature 2).
 
 **Details**:
@@ -197,11 +197,11 @@
 
 **Solution**: I used one statistics lock and released it with `finally` in all six methods.
 
-**Time spent**: 49 minutes (calculated from the supplied range).
+**Time spent**: 8 min.
 
 ---
 
-### Entry 5 - November 24, 2026, 6:43–7:23 (AM/PM to confirm)
+### Entry 5 -  November 24, 2026, approximately 3:54–4:06 PM
 **What I did**: Added the counting semaphore (Feature 3) and tested the program.
 
 **Details**:
@@ -215,7 +215,7 @@
 
 **Solution**: I added a completion check and released permits to wake the waiting CPUs.
 
-**Time spent**: 40 minutes (calculated from the supplied range).
+**Time spent**: 12 min.
 
 ---
 

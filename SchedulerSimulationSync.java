@@ -106,10 +106,14 @@ class SharedStats {
     }
 }
 
-    public static int getContextSwitchCount() {
-        // TODO Feature 2: protect this read
+   public static int getContextSwitchCount() {
+    statsLock.lock();
+    try {
         return contextSwitchCount;
+    } finally {
+        statsLock.unlock();
     }
+}
 
     public static long getTotalServiceTime() {
     statsLock.lock();
